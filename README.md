@@ -13,4 +13,4 @@ The code is based on existing LAMMPS source. It should be as simple as copying o
 pair_style      lj/cut/coul/GT <kappa> <cutoff>
 ```
 
-No k-space style should be defined. It is also reccommended that you check out the [FiniteField repository](https://github.com/uccasco/FiniteFields).
+No k-space style should be defined. It is also recommended that you check out the [FiniteField repository](https://github.com/uccasco/FiniteFields).
