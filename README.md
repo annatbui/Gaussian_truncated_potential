@@ -7,7 +7,7 @@ This is an implementation of electrostatics in the *strong-coupling approximatio
 
 where a synopsis of the underlying theory can be found, along with references to more complete overviews (mostly arising from the Weeks group in Maryland). A copy of the paper can be found [here](https://www.pnas.org/content/117/33/19746.short). (A preprint version can be found [here](https://arxiv.org/abs/2008.01682))
 
-The implementation is based on existing LAMMPS source code. It should be as simple as copying over the files to the main src directory and recompiling. Example files can be found [here](https://doi. org/10.17863/CAM.52565), but the basic idea is to include the line:
+The implementation is based on existing LAMMPS source code. It should be as simple as copying over the files to the main src directory and recompiling. Example files can be found [here](https://doi.org/10.17863/CAM.52565), but the basic idea is to include the line:
 
 ``` 
 pair_style      lj/cut/coul/GT <kappa> <cutoff>
