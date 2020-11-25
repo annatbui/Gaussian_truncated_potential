@@ -1,7 +1,14 @@
 # LMFT
-Relevant source code for LMFT/SCA electrostatics in LAMMPS.
+Relevant source code for LMFT/SCA electrostatics in LAMMPS. The files tagged
+03Mar2020 should work with LAMMPS versions prior to the 29Oct2020
+stable release. Updating these file for use with LAMMPS >= 29Oct2020
+is work in progress.
 
-This is an implementation of electrostatics in the *strong-coupling approximation* for use with *local molecular field theory* (LMFT). This is intended to be used with the LAMMPS simulation package. If you use this code, please cite:
+
+This is an implementation of electrostatics in the *strong-coupling
+approximation* for use with *local molecular field theory*
+(LMFT). This is intended to be used with the LAMMPS simulation
+package. If you use this code, please cite:
 
 > S. J. Cox, <i> Dielectric response with short-ranged electrostatics</i>, Proc. Natl. Acad. Sci. <b>117</b>, 19746-19752 (2020)
 
